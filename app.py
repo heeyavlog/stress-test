@@ -1,7 +1,8 @@
 import streamlit as st
 
 def run_bepsi_test():
-    st.title('스트레스 자가진단 테스트 (BEPSI-K)')
+    st.title('스트레스 자가진단 테스트')
+    st.write('BEPSI-K테스트')
     st.write('지난 한 달 동안 귀하가 느끼고 경험했던 내용에 대해 가장 적절한 답을 선택해주세요.')
     
     questions = [
